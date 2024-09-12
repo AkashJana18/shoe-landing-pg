@@ -1,6 +1,5 @@
 import {
   CustomerReviews,
-  Nav,
   Footer,
   Hero,
   PopularProduct,
@@ -9,37 +8,36 @@ import {
   Subscribe,
   SuperQuality,
 } from "./sections";
+import  Nav  from "./components/Nav";
 
 export default function App() {
   return (
     <main>
-      <section className="padding">
-        <Nav />
-      </section>
-      <section className="xl:padding-1 wide:padding-r padding-b">
+      <Nav />
+      {/* <section className="xl:padding-1 wide:padding-r padding-b">
         <Hero />
       </section>
       <section className="padding">
-        <PopularProduct /> 
+        <PopularProduct />
       </section>
       <section className="padding">
-        <SuperQuality /> 
+        <SuperQuality />
       </section>
       <section className="padding-y py-10">
         <Services />
       </section>
       <section className="padding">
-        <SpecialOffer /> 
+        <SpecialOffer />
       </section>
       <section className="padding bg-pale-blue">
-        <CustomerReviews /> 
+        <CustomerReviews />
       </section>
       <section className="padding-x sm:py-32 py-16 w-full">
         <Subscribe />
       </section>
       <section className="padding-x padding-t bg-black pb-8">
         <Footer />
-      </section>
+      </section> */}
     </main>
   );
 }
