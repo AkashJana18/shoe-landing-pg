@@ -14,7 +14,7 @@ export default function App() {
   return (
     <main>
       <Nav />
-      {/* <section className="xl:padding-1 wide:padding-r padding-b">
+       <section className="xl:padding-l wide:padding-r padding-b">
         <Hero />
       </section>
       <section className="padding">
@@ -37,7 +37,7 @@ export default function App() {
       </section>
       <section className="padding-x padding-t bg-black pb-8">
         <Footer />
-      </section> */}
+      </section>
     </main>
   );
 }
